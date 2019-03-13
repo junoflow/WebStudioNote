@@ -22,4 +22,6 @@
 - Call by reference : 함수 호출 시 인자로 전달되는 변수의 레퍼런스를 전달. 따라서 함수 안에서 인자의 값이 변경되면, 아규먼트로 전달된 객체의 값도 함께 변경된다.
 - Call by value : 함수 호출 시 값을 복사해서 사용. 따라서 함수 안에서 인자의 값이 변경되어도, 외부의 변수의 값은 변경되지 않는다.
 - call by reference인 변수가 있고(string, list, dictionary...), call by value(int, float...)인 변수도 있다
-- 
+### File Write
+- 문자열만 된다.
+- 파일이 없어도 자동으로 만들어준다.

@@ -25,3 +25,12 @@
 ### File Write
 - 문자열만 된다.
 - 파일이 없어도 자동으로 만들어준다.
+
+# 190318
+# 2 - Python, Flask (1)
+
+## 수업 시간 전
+### upstream과 sync를 맞춰야 한다. https://help.github.com/en/articles/syncing-a-fork 참고하기
+
+## 실습 전
+### 브랜치를 만들어야 한다. git checkout -b 숫자-practice-이름

@@ -31,6 +31,7 @@
 
 ## 수업 시간 전
 ### upstream과 sync를 맞춰야 한다. https://help.github.com/en/articles/syncing-a-fork 참고하기
+### git push origin master해야 github에 들어가있다.
 
 ## 실습 전
 ### 브랜치를 만들어야 한다. git checkout -b 숫자-practice-이름

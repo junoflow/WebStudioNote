@@ -43,3 +43,5 @@ if not os.path.exists(filename) : os는 파일관리 할 때 사용하는 파이
 - dump : 오브젝트를 문자열로 바꿔준다.
 - HTTP 프로토콜에서는 모든 통신이 문자열로 이루어지기 때문
 - python을 > json로 만들고 > java로 복호화 이런 식으로 통신한다
+### Sign up (1)
+- -X : HTTP Method / -H : Header / -d : data

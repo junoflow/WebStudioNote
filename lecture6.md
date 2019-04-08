@@ -23,4 +23,14 @@
   - ex) article에서 없는 user_id로 post하는 경우. user_id를 삭제했는데 그 user_id로 작성한 글이 artcie에 남아있는 경우 등
 - join연산의 최적화를 위해 사용
   - ex) "comment가 3개 이상인 article을 찾아줘" : article에 query를 날릴 건데, comment가 필요하다!
-    comment에 존재하는 article_id 키와 article에 있는 id 키를 join해서 찾을 수 있다
+  - comment에 존재하는 article_id 키와 article에 있는 id 키를 join해서 찾을 수 있다
+### relationship
+- article = relationship('Article', backref = backref(comments, order_by = id)
+  - backref : 연결되어 있으니, article.comment로 참조할 수 있게 해줘
+- 양방향 바인딩 : 서로 접근할 수 있다
+- nested하게 접근 : article.comment.user.email 커멘트를 단 유저의 이메일을 받아줘
+- lazy evaluation : 필요할 때만 계산해서 성능 짱. python의 좋은 점.
+
+## Serialize, deserialize
+### Serialize
+- 파이썬 객체를 문자열로 serialize, 문자열을 파이썬 객체로 deserialize

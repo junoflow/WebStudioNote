@@ -11,9 +11,9 @@
 - nested 구조 : html 안에 head 안에 title이 있는 계층적 구조
 - <meta charset="UTF-8"> : 한글 쓸 때 안 깨지게
 - <h1> header : 제목 쓸 떄
-- <p> : 평문, 기본 margin을 가지고 있다.
-- <img src="주소"> : 주소에 맞는 이미지, 안 닫아도 됨
-- <a href="주소"> : 하이퍼링크
+- < p> : 평문, 기본 margin을 가지고 있다.
+- < img src="주소"> : 주소에 맞는 이미지, 안 닫아도 됨
+- < a href="주소"> : 하이퍼링크
 - <br /> : enter
 - <div> : 엄청 많이 쓴다. 코드 상에서 구분을 위한 도구. div만 이용하면 다 만들 수 있다.
 - <from action="서버주소" type="post"> : input 내용들을 모아 어떤 http method를 쓸 건지 정해줄 수 있다.

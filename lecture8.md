@@ -47,6 +47,9 @@ b = 9 (불가능)
 - console.log = print
 ### cors
 - cors 처리를 해줘야함
-- 두
+- 두 줄로 가능. 그거 쓰면 된다.
 ### POST method
-- stringify : 직렬화(문자열로 바꾸는 거)
+- stringify : 직렬화(문자열로 바꾸는 거 = json.dump)
+### article fetch 후 보여주기
+- parse : 역직렬화(=json.loads)
+- 동적으로 삽입 : 순회하며 만든다

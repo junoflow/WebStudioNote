@@ -15,9 +15,9 @@
 - < img src="주소"> : 주소에 맞는 이미지, 안 닫아도 됨
 - < a href="주소"> : 하이퍼링크
 - < br /> : enter
-- <div> : 엄청 많이 쓴다. 코드 상에서 구분을 위한 도구. div만 이용하면 다 만들 수 있다.
-- <from action="서버주소" type="post"> : input 내용들을 모아 어떤 http method를 쓸 건지 정해줄 수 있다.
-- <input type="     "> : 미리 정해져있는 게 있다. ex) text, password, submit...
+- < div > : 엄청 많이 쓴다. 코드 상에서 구분을 위한 도구. div만 이용하면 다 만들 수 있다.
+- < from action="서버주소" type="post" > : input 내용들을 모아 어떤 http method를 쓸 건지 정해줄 수 있다.
+- < input type="     " > : 미리 정해져있는 게 있다. ex) text, password, submit...
 ### HTML id attribute
 - javascript나 css에서 쓸라고 만든다.
 ### HTML class attribute

@@ -14,7 +14,7 @@
 - asynchronous network 통신 : API 서버로부터 데이터를 가져옴
 - C언어에서 영감을 받았다고 한다
 
-##javascript를 
+## javascript를 써보자
 ### variable, type, list, dictionary
 - var에 문제가 많아서 let과 const를 쓰게 되었다.
 - let과 const 모두 재선언 불가, let 수정가능하고, const는 수정 불가
@@ -26,6 +26,7 @@ const b = 7
 b = 9 (불가능)
 ```
 ### function
+- 함수 자체를 변수로 쓸 수도 있다.
 - arrow function을 잘 쓰는 방법
   - 원래 : (parameter1. ... , paremeterN) => {statement}
   - (parameter, ... , parameterN) => expression
@@ -38,3 +39,14 @@ b = 9 (불가능)
   (a,b) => a+b
 
 ## javascript를 적용해보자
+### fetch
+- 비동기통신 : 오래 걸리는 호출을 할 때 서버와 브라우저 사이에 뭘 만들어서 그걸 거쳐 호출하는 거 -> 안그러면 멈추니까
+- promise를 반환
+### promise
+- callback 함수 : 끝나면 실행되는 함수
+- console.log = print
+### cors
+- cors 처리를 해줘야함
+- 두
+### POST method
+- stringify : 직렬화(문자열로 바꾸는 거)
